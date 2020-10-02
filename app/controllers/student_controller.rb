@@ -1,5 +1,5 @@
 class StudentController < ApplicationController::Base
-  def students_path
-
+  def index
+    @students = Student.all
   end
 end
