@@ -1,1 +1,1 @@
-class StudentController
+class StudentController < ApplicationController::Base
