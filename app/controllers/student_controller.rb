@@ -1,4 +1,4 @@
-class StudentController < ApplicationController::Base
+class StudentsController < ApplicationController
   def index
     @students = Student.all
   end
